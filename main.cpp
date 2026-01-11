@@ -96,7 +96,8 @@ int main() {
 	std::cin >> boardSize;
 
 	while (boardSize < 3) {
-		std::cout << "Minimum board size is 3";
+		std::cout << "Minimum board size is 3" << std::endl;
+		std::cout << "Enter board size (>=3): ";
 		std::cin >> boardSize;
 	}
 
