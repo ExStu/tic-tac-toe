@@ -1,0 +1,12 @@
+cmake-build-*/
+build/
+out/
+
+.idea/
+*.iml
+
+*.swp
+*~
+
+.DS_Store
+Thumbs.db
